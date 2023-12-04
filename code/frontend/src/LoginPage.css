@@ -1,0 +1,146 @@
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    background: linear-gradient(to right, #ade8f4, #f7d1ba);
+    font-family: 'Arial', sans-serif;
+    padding-top: 20px;
+}
+
+h1 {
+    color: #ff6347;
+    margin-bottom: 1rem;
+}
+
+.login-form {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.login-form label {
+    display: block;
+    color: #023047;
+    margin-bottom: 0.5rem;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.login-button {
+    background-color: #ff8c42;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: block;
+    width: 100%;
+}
+
+.login-button:hover {
+    background-color: #ff6534;
+}
+
+.login-footer {
+    color: #023e8a;
+    margin-top: 1rem;
+}
+
+.welcome-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section h2 {
+    margin-bottom: 1rem;
+    color: #ff6347;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.tab {
+    background-color: #ff8c42;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.tab:hover {
+    background-color: #ff6534;
+}
+
+.research-panel {
+    margin-top: 2rem;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; 
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.input-group input {
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.adventure-panel {
+    margin-top: 15rem;
+    padding: 1rem;
+    width: 100%;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    margin-top: 0.5rem;
+}
+
+.input-group input {
+    width: 90%;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
